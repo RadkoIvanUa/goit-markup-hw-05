@@ -38,7 +38,7 @@ h1,
 h2,
 h3 {
   margin-top: 0;
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 .list {
   list-style: none;
@@ -153,7 +153,6 @@ h3 {
 
 .menu-item {
   position: relative;
-
   padding: 24px 0;
 }
 
@@ -642,7 +641,15 @@ h3 {
   right: 24px;
 }
 
+.modal-btn:active {
+  background-color: var(--primary-brand-color);
+}
+
 .modal-icon {
   width: 8px;
   height: 8px;
+}
+
+.modal-btn:active .modal-icon {
+  fill: var(--clean-color);
 }
